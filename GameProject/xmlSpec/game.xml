@@ -1,0 +1,144 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<Name>Dylan McCoy</Name>
+<Title>Kirby's Stroll</Title>
+<maxStringSize>50</maxStringSize>
+
+<hudX>10</hudX>
+<hudY>10</hudY>
+<hudW>300</hudW>
+<hudH>190</hudH>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<frameMax>500</frameMax>
+<maxFrame>100</maxFrame>
+<username>dmmccoy</username>
+
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1250</width>
+  <height>480</height>
+</world>
+
+<back>
+  <file>images/background.bmp</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</back>
+
+<ground>
+  <file>images/Ground.png</file>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</ground>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <alpha>0</alpha>
+</font>
+
+<Kirby>
+  <file>images/Kirby.png</file>
+  <startLoc x="500" y="250"/>
+  <frames>8</frames>
+  <frameInterval>60</frameInterval>
+  <frameHeight>60</frameHeight>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <minFrameDelay>0</minFrameDelay>
+  <slowDown>0.95</slowDown>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</Kirby>
+
+<KirbyExplode>
+  <file>images/KirbyExplode.png</file>
+  <startLoc x="1150" y="380"/>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</KirbyExplode>
+
+
+<Gordo>
+  <file>images/Gordo.png</file>
+  <startLoc x="1150" y="380"/>
+  <clones>10</clones>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+  <transparency>true</transparency>
+</Gordo>
+
+<cannonBall>
+  <file>images/cannonBall.png</file>
+  <startLoc x="500" y="0"/>
+  <speedX>200</speedX>
+  <speedY>0</speedY>
+  <distance>1150</distance>
+  <interval>300</interval>
+  <transparency>true</transparency>
+</cannonBall>
+
+<Shotzo>
+  <file>images/Shotzo.png</file>
+  <startLoc x="1190" y="0"/>
+  <speedX>0</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</Shotzo>
+
+<ShotzoRight>
+  <file>images/ShotzoRight.png</file>
+  <startLoc x="0" y="400"/>
+  <speedX>0</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</ShotzoRight>
+
+<KirbyLeft>
+  <file>images/KirbyLeft.png</file>
+  <frames>8</frames>
+</KirbyLeft>
+<Bronto>
+  <file>images/Bronto.png</file>
+  <startLoc x="50" y="100"/>
+  <frames>4</frames>
+  <clones>10</clones>
+  <frameInterval>100</frameInterval>
+  <speedX>100</speedX>
+  <speedY>175</speedY>
+  <minFrameDelay>0</minFrameDelay>
+  <slowDown>0.95</slowDown>
+  <transparency>true</transparency>
+</Bronto>
+
+<BrontoLeft>
+  <file>images/BrontoLeft.png</file>
+  <frames>4</frames>
+</BrontoLeft>
+
+</GameData>

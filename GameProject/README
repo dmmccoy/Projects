@@ -1,0 +1,23 @@
+Name: Dylan McCoy
+
+Clemson Email Address: dmmccoy@g.clemson.edu
+
+Project no:4
+
+Project due date:4/4/2017
+
+Project description:Using SDL to begin making the basis of a real game, including player movement, and basic features of depth that would be common in a 2d video game. Along with getting used to xml files, getting used to object orientation.
+
+The easiest part of this project:Hud, and implementing Painters algorithm
+
+Problems that I had in completing this project:Making the player class, no matter what I did, the player would stutter before it commited to a full walk cycle.
+
+Final game idea:So for my game is to have kirby in a trapped in a box, and is being pelted with
+mutilple spawning gordos (picture for reference: http://kirby.wikia.com/wiki/Gordo) and must survive for a certain amount of time. The gordos will spawn from random edges of the screen, and will explode once reaching the other side of the screen, contacting with kirby, or with other gordos. Kirbys movement will either be simple walking, have a jump feature, or just have him or a similar creature flying around in the box. After the set time of surviving the death box, the box should dissaper. Kirby should then do his signature victory dance, while a villian is upset or something.
+
+
+Images used:
+http://kirby.wikia.com/wiki/File:Green_Greens_1.PNG
+http://comicart1.deviantart.com/art/Kirby-sprite-sheet-425886890
+https://www.spriters-resource.com/custom_edited/kirbycustoms/sheet/31987/
+ 
